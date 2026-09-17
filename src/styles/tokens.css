@@ -1,0 +1,55 @@
+/**
+ * strike-ui design tokens — dark-first scale for dense operator dashboards.
+ * All component styles consume these custom properties only.
+ */
+:root {
+  /* typography */
+  --su-font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --su-font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "JetBrains Mono", Menlo, Consolas, "Liberation Mono", monospace;
+
+  /* surfaces */
+  --su-bg: #0b0f14;        /* app background */
+  --su-panel: #121821;     /* raised panel */
+  --su-panel-2: #18202c;   /* hover / nested surface */
+  --su-panel-3: #1e2836;   /* highest surface */
+
+  /* lines */
+  --su-line: #232d3d;
+  --su-line-strong: #313d52;
+
+  /* text */
+  --su-text: #dce4ef;
+  --su-text-muted: #93a1b5;
+  --su-text-faint: #5d6a7e;
+
+  /* status */
+  --su-accent: #ff9e2c;
+  --su-accent-soft: rgba(255, 158, 44, 0.14);
+  --su-success: #7ee08a;
+  --su-success-soft: rgba(126, 224, 138, 0.14);
+  --su-error: #ff6b6b;
+  --su-error-soft: rgba(255, 107, 107, 0.14);
+  --su-warning: #e6b450;
+  --su-warning-soft: rgba(230, 180, 80, 0.14);
+  --su-info: #5da9ff;
+  --su-info-soft: rgba(93, 169, 255, 0.14);
+
+  /* selection + focus */
+  --su-sel: rgba(255, 158, 44, 0.12);
+  --su-focus: rgba(255, 158, 44, 0.55);
+
+  /* geometry */
+  --su-radius: 6px;
+  --su-radius-sm: 4px;
+  --su-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+
+  /* density */
+  --su-space-1: 4px;
+  --su-space-2: 8px;
+  --su-space-3: 12px;
+  --su-space-4: 16px;
+
+  --su-font-size: 13px;
+  --su-font-size-sm: 12px;
+  --su-font-size-xs: 11px;
+}
