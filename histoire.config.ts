@@ -6,7 +6,9 @@ import { HstVue } from '@histoire/plugin-vue'
 const base = process.env.HISTOIRE_BASE || '/'
 
 export default defineConfig({
-  base,
   setupFile: 'src/histoire-setup.ts',
   plugins: [HstVue()],
+  vite: {
+    base,
+  },
 })
