@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.histoire/
+coverage/
+*.log
+.DS_Store
+.idea/
+.vscode/
